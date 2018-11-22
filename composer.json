@@ -7,6 +7,17 @@
             "email": "a.grigorenko.belvg@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BelVG\\NewRequestRouter\\": ""
+        }
+    }
 }
